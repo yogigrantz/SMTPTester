@@ -37,7 +37,7 @@ namespace EmailTester
             {
                 cbSecurityType.SelectedItem = SecureSocketOptions.None; // fallback
             }
-            this.lblResult.Text = "Ready";
+            this.lblResult.Text = "Ready ... ";
         }
 
         private async void btnSend_Click(object sender, EventArgs e)
