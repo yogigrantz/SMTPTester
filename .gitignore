@@ -6,3 +6,4 @@
 /.vs
 /EmailTester/bin/Debug/net8.0-windows
 /EmailTester/obj
+/appsettings.Development.json
