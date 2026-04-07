@@ -1,8 +1,5 @@
 ﻿using MailKit.Security;
-using Org.BouncyCastle.Tls;
-using System.Runtime.Intrinsics.X86;
 using YGSendMail;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace EmailTester
 {

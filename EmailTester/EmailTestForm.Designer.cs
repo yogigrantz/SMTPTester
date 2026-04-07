@@ -56,7 +56,8 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 11F);
-            label1.Location = new Point(75, 44);
+            label1.Location = new Point(107, 73);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
             label1.Size = new Size(46, 20);
             label1.TabIndex = 0;
@@ -66,7 +67,8 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 11F);
-            label2.Location = new Point(81, 85);
+            label2.Location = new Point(116, 142);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
             label2.Size = new Size(35, 20);
             label2.TabIndex = 1;
@@ -76,7 +78,8 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 11F);
-            label3.Location = new Point(46, 123);
+            label3.Location = new Point(66, 205);
+            label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
             label3.Size = new Size(75, 20);
             label3.TabIndex = 2;
@@ -86,7 +89,8 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 11F);
-            label4.Location = new Point(46, 166);
+            label4.Location = new Point(66, 277);
+            label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
             label4.Size = new Size(70, 20);
             label4.TabIndex = 3;
@@ -96,7 +100,8 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 11F);
-            label5.Location = new Point(46, 244);
+            label5.Location = new Point(66, 407);
+            label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
             label5.Size = new Size(67, 20);
             label5.TabIndex = 4;
@@ -104,48 +109,53 @@
             // 
             // txtSMTP
             // 
-            txtSMTP.Location = new Point(136, 44);
+            txtSMTP.Location = new Point(194, 73);
+            txtSMTP.Margin = new Padding(4, 5, 4, 5);
             txtSMTP.Name = "txtSMTP";
-            txtSMTP.Size = new Size(209, 23);
+            txtSMTP.Size = new Size(297, 31);
             txtSMTP.TabIndex = 5;
-            txtSMTP.Text = "smtp.gov.yk.ca";
             // 
             // txtPort
             // 
-            txtPort.Location = new Point(136, 82);
+            txtPort.Location = new Point(194, 137);
+            txtPort.Margin = new Padding(4, 5, 4, 5);
             txtPort.Name = "txtPort";
-            txtPort.Size = new Size(93, 23);
+            txtPort.Size = new Size(131, 31);
             txtPort.TabIndex = 6;
             txtPort.Text = "25";
             // 
             // txtUsername
             // 
-            txtUsername.Location = new Point(136, 124);
+            txtUsername.Location = new Point(194, 207);
+            txtUsername.Margin = new Padding(4, 5, 4, 5);
             txtUsername.Name = "txtUsername";
-            txtUsername.Size = new Size(209, 23);
+            txtUsername.Size = new Size(297, 31);
             txtUsername.TabIndex = 7;
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(136, 167);
+            txtPassword.Location = new Point(194, 278);
+            txtPassword.Margin = new Padding(4, 5, 4, 5);
             txtPassword.Name = "txtPassword";
-            txtPassword.Size = new Size(209, 23);
+            txtPassword.Size = new Size(297, 31);
             txtPassword.TabIndex = 8;
             // 
             // txtEmailMessage
             // 
-            txtEmailMessage.Location = new Point(136, 244);
+            txtEmailMessage.Location = new Point(194, 407);
+            txtEmailMessage.Margin = new Padding(4, 5, 4, 5);
             txtEmailMessage.Multiline = true;
             txtEmailMessage.Name = "txtEmailMessage";
-            txtEmailMessage.Size = new Size(531, 160);
+            txtEmailMessage.Size = new Size(757, 264);
             txtEmailMessage.TabIndex = 9;
             txtEmailMessage.Text = "This is an email test";
             // 
             // btnSend
             // 
-            btnSend.Location = new Point(136, 421);
+            btnSend.Location = new Point(194, 702);
+            btnSend.Margin = new Padding(4, 5, 4, 5);
             btnSend.Name = "btnSend";
-            btnSend.Size = new Size(99, 50);
+            btnSend.Size = new Size(141, 83);
             btnSend.TabIndex = 10;
             btnSend.Text = "Send Email";
             btnSend.UseVisualStyleBackColor = true;
@@ -155,7 +165,8 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 11F);
-            label6.Location = new Point(58, 201);
+            label6.Location = new Point(83, 335);
+            label6.Margin = new Padding(4, 0, 4, 0);
             label6.Name = "label6";
             label6.Size = new Size(58, 20);
             label6.TabIndex = 11;
@@ -163,9 +174,10 @@
             // 
             // txtsubject
             // 
-            txtsubject.Location = new Point(136, 205);
+            txtsubject.Location = new Point(194, 342);
+            txtsubject.Margin = new Padding(4, 5, 4, 5);
             txtsubject.Name = "txtsubject";
-            txtsubject.Size = new Size(531, 23);
+            txtsubject.Size = new Size(757, 31);
             txtsubject.TabIndex = 12;
             txtsubject.Text = "Test email";
             // 
@@ -173,7 +185,8 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 11F);
-            label7.Location = new Point(416, 47);
+            label7.Location = new Point(594, 78);
+            label7.Margin = new Padding(4, 0, 4, 0);
             label7.Name = "label7";
             label7.Size = new Size(71, 20);
             label7.TabIndex = 13;
@@ -181,18 +194,19 @@
             // 
             // txtRecipient
             // 
-            txtRecipient.Location = new Point(493, 45);
+            txtRecipient.Location = new Point(704, 75);
+            txtRecipient.Margin = new Padding(4, 5, 4, 5);
             txtRecipient.Name = "txtRecipient";
-            txtRecipient.Size = new Size(174, 23);
+            txtRecipient.Size = new Size(247, 31);
             txtRecipient.TabIndex = 14;
-            txtRecipient.Text = "ygrantz@yukon.ca";
             // 
             // label8
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 11F);
             label8.LiveSetting = System.Windows.Forms.Automation.AutomationLiveSetting.Assertive;
-            label8.Location = new Point(388, 85);
+            label8.Location = new Point(554, 142);
+            label8.Margin = new Padding(4, 0, 4, 0);
             label8.Name = "label8";
             label8.Size = new Size(99, 20);
             label8.TabIndex = 15;
@@ -200,9 +214,10 @@
             // 
             // txtSenderName
             // 
-            txtSenderName.Location = new Point(493, 82);
+            txtSenderName.Location = new Point(704, 137);
+            txtSenderName.Margin = new Padding(4, 5, 4, 5);
             txtSenderName.Name = "txtSenderName";
-            txtSenderName.Size = new Size(174, 23);
+            txtSenderName.Size = new Size(247, 31);
             txtSenderName.TabIndex = 16;
             txtSenderName.Text = "NoReply";
             // 
@@ -210,7 +225,8 @@
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI", 11F);
-            label9.Location = new Point(391, 124);
+            label9.Location = new Point(559, 207);
+            label9.Margin = new Padding(4, 0, 4, 0);
             label9.Name = "label9";
             label9.Size = new Size(96, 20);
             label9.TabIndex = 17;
@@ -218,18 +234,19 @@
             // 
             // txtSenderEmail
             // 
-            txtSenderEmail.Location = new Point(493, 123);
+            txtSenderEmail.Location = new Point(704, 205);
+            txtSenderEmail.Margin = new Padding(4, 5, 4, 5);
             txtSenderEmail.Name = "txtSenderEmail";
-            txtSenderEmail.Size = new Size(174, 23);
+            txtSenderEmail.Size = new Size(247, 31);
             txtSenderEmail.TabIndex = 18;
-            txtSenderEmail.Text = "noreply@ynet.gov.yk.ca";
             // 
             // lblResult
             // 
             lblResult.AutoSize = true;
-            lblResult.Location = new Point(136, 491);
+            lblResult.Location = new Point(194, 818);
+            lblResult.Margin = new Padding(4, 0, 4, 0);
             lblResult.Name = "lblResult";
-            lblResult.Size = new Size(23, 15);
+            lblResult.Size = new Size(36, 25);
             lblResult.TabIndex = 19;
             lblResult.Text = "OK";
             // 
@@ -237,7 +254,8 @@
             // 
             label10.AutoSize = true;
             label10.Font = new Font("Segoe UI", 11F);
-            label10.Location = new Point(395, 166);
+            label10.Location = new Point(564, 277);
+            label10.Margin = new Padding(4, 0, 4, 0);
             label10.Name = "label10";
             label10.Size = new Size(92, 20);
             label10.TabIndex = 20;
@@ -246,16 +264,17 @@
             // cbSecurityType
             // 
             cbSecurityType.FormattingEnabled = true;
-            cbSecurityType.Location = new Point(493, 167);
+            cbSecurityType.Location = new Point(704, 278);
+            cbSecurityType.Margin = new Padding(4, 5, 4, 5);
             cbSecurityType.Name = "cbSecurityType";
-            cbSecurityType.Size = new Size(174, 23);
+            cbSecurityType.Size = new Size(247, 33);
             cbSecurityType.TabIndex = 21;
             // 
             // EmailTestForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(769, 560);
+            ClientSize = new Size(1099, 933);
             Controls.Add(cbSecurityType);
             Controls.Add(label10);
             Controls.Add(lblResult);
@@ -278,6 +297,7 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "EmailTestForm";
             Text = "EmailTestForm";
             ResumeLayout(false);
